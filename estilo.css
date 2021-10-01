@@ -1,0 +1,685 @@
+*{
+  padding: 0;
+  margin: 0 ;
+  list-style-type: none;
+  text-decoration: none !important ;
+}
+/* MODAL CARRITO */
+.carritoProductos{
+  background-color: rgba(255,255,255, 0.8);
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#carritoProductos p{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+.CarritoProductosHide{
+  display: none;
+}
+/* MODAL CARRITO */
+
+.Barra{
+  background-color: green;
+  position: relative;
+  width: 100%;
+}
+.BarraResponsiveContenedor{
+  display: none;
+}
+.BarraContenedor{
+  display: flex;
+  height: 5rem;
+}
+.BarraTexto{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 ;
+}
+.Link{
+  font-size: 1.2rem;
+  color: white;
+  padding: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.margin{
+  padding-right: 4rem;
+}
+.Logo{
+  width: 5rem;
+  height: 5rem;
+  margin: 0.4rem;
+  margin-left: 1.5rem;
+}
+#productosContenedorPadre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#productosContenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+#productosContenedor2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6rem;
+}
+
+.SeccionNosotros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images5.alphacoders.com/427/thumb-1920-427274.jpg);
+  background-blend-mode: soft-light;
+  background-color: rgba(0,0,0,0.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+}
+.ContenedorNyR{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.BoxShadow, .BoxShadowDerecha{
+  filter: drop-shadow(48px 37px 3px rgba(0, 0, 0, 0.5));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  transform: translateX(-110px);
+}
+.BoxShadowDerecha{
+  transform: translateX(110px);
+}
+.BoxShadow1{
+  filter: drop-shadow(48px 18px 3px rgba(0, 0, 0, 0.7));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  flex-wrap: wrap;
+}
+.BoxShadow2{
+  filter: drop-shadow(48px 18px 3px rgba(0, 0, 0, 0.7));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+.ModalContenedor, .ModalTrepadoraContenedor, .ModalInterioresContenedor, .ModalSemillasContenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+.TrepadoraModal{
+  background-image: url("./img/TrepadorasPop.jpg") !important;
+}
+.InterioresModal{
+  background-image: url("./img/InterioresPop.jpg") !important;
+  background-position: 50% 75% !important;
+}
+.SemillaModal{
+  background-image: url("./img/SemillasPop.jpg") !important;
+}
+
+.HerramientasModal, .TrepadoraModal, .InterioresModal, .SemillaModal{
+  position: relative;
+  margin: auto;
+  background: url("./img/HerramientasPop.jpg") no-repeat;
+  background-size: cover;
+  height: 31rem;
+  width: 42rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 0 500rem rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: soft-light;
+}
+
+.BtnModal{
+  position: absolute;
+  right: 0;
+  top: 3%;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+}
+
+.TextoModal{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  height: 100%;
+  text-align: center;
+  font-weight: 600;
+  padding: 3rem;
+  letter-spacing: 0.1rem;
+  line-height: 3rem;
+  background-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ContenedorNosotros, .ContenedorResponsabilidad{
+  background-image: url("./img/viveroNosotros.jpg");
+  background-blend-mode: soft-light;
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 40rem; */
+  padding: 3rem;
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  margin: 2rem;
+    
+}
+
+.tituloNosotros, .ResponsabilidadTitulo{
+  color: white;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.TextoNosotros, .ResponsabilidadTexto{
+  font-size: 1.1rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  line-height: 2.2rem;
+}
+
+.ContenedorResponsabilidad{
+  background-image: url("./img/Responsabilidad.jpg");
+}
+
+.card{
+  width: 16rem;
+  height: 20rem;
+  border: none !important;
+  background-blend-mode: soft-light;
+  background-color: black !important;
+}
+
+.imagen{
+  opacity: 0.6;
+  border-radius: 1rem 1rem 0 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: soft-light;
+}
+.card-body{
+background-color: rgba(255, 255, 255 , 0.9);
+}
+
+.ContenedorPadre{
+  background: url(https://i.gifer.com/YQSD.gif) no-repeat 50% 100% ;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: relative;
+}
+.contenedorGradiant{
+  background: linear-gradient(180deg, rgba(97, 95, 95, 0.3), black);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 400;
+}
+
+.Titulo{
+  font-size: 7rem;
+  z-index: 500;
+  color: rgba(255,255,255, 0.6);
+}
+/* .card-img-top{
+  height: 11rem;
+} */
+img{
+  height: 11rem;
+  /* background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: soft-light; */
+}
+.input-group-prepend{
+  display: flex;
+}
+.AnimacionSlideUp{
+
+  background-color: rgba(10, 170, 121, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 3.7rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+.ContenedorSecciones{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://fondosmil.com/fondo/26795.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.Herramientas, .Semillas, .Trepadoras, .Interiores {
+  width: 21rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  background-color: rgb(60, 60, 60);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  margin: 3rem;
+}
+
+.Herramientas{
+  background-image: url("./img/HerramientasFondo.jpg");
+  background-position: 50% 70%;
+}
+.Semillas{
+  background-image: url("./img/SemillasFondo.jpg");
+}
+.Trepadoras{
+  background-image: url("./img/TrepadorasFondo.jpg");
+}
+.Interiores{
+  background-image: url("./img/InterioresFondo.jpg");
+  background-position: 50% 50%;
+}
+
+.ContenedorCuriosidades{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(https://s2.best-wallpaper.net/wallpaper/iphone/1804/Plants-leaves-close-up_iphone_1080x1920.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Seccion1{
+  display: flex;
+  flex-direction: row;
+}
+.ContenedorInterioryAgua{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;  
+  margin: 4rem;
+  border-radius: 4rem;
+  transform: scale(0.9) translateX(-100px);
+  
+  
+}
+.ContenedorTituloInterior{
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.ContenedorTextoInterior{
+  padding: 0 4rem;
+}
+.Interior{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 4rem;
+  background-image: url("./img/SanseFondo.jpg");
+  background-blend-mode: soft-light;
+  background-color: rgb(50, 50, 50);
+}
+.TituloInterior{
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 4rem;
+}
+
+.TextoInterior{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.ContenedorRiegoyPlanta{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Riego{
+  background-image: url("./img/Riego.jpg");
+  border-radius: 2rem;
+  padding: 2rem;
+  background-blend-mode: soft-light;
+  background-color: rgb(50, 50, 50);
+  width: 90%;
+  transform: scale(0.9) translateX(100px);
+}
+.ContenedorTitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TituloRiego{
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.TextoRiego{
+  color: white;
+  font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Aloe{
+  background-image: url("./img/Aloe.jpg");
+}
+.ContenedorHerramientas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+.HerramientasTitulo{
+  margin-top: 2rem;
+  /* margin-bottom: -2rem; */
+}
+.TituloHerramientas{
+  font-size: 4rem;
+  color: white;
+}
+.HerramientasTexto{
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 25rem;
+  text-transform: uppercase;
+  text-align: center;
+  background: url("https://www.maestro.com.pe/maestro/uploads/tutoriales/PASO_A_PASO_OCTUBRE110.png"), no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 3rem;
+}
+
+.TituloTexto{
+  font-size: 2.2rem;
+  padding: 2rem ;
+  height: 20%;
+}
+
+.TextoHerramientas{
+  padding: 1rem 1.5rem;
+  height: 80%;
+}
+
+.ContenedorCardsHerramientas{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+  transform: scale(0.83) translateY(65px);
+}
+
+.Pala{
+  background-image: url("https://www.maestro.com.pe/maestro/uploads/tutoriales/PASO_A_PASO_OCTUBRE210.png");
+}
+
+.Podadora{
+  background-image: url("https://www.maestro.com.pe/maestro/uploads/tutoriales/PASO_A_PASO_OCTUBRE46.png");
+}
+
+.Rastrillo{
+  background-image: url("https://www.maestro.com.pe/maestro/uploads/tutoriales/PASO_A_PASO_OCTUBRE310.png");
+}
+
+.ContenedorCarritoCategoria{
+  background: url("./img/carritoFondo.jpg") no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-primary{
+  background-color: green !important;
+}
+.btn-primary:hover{
+  background-color: #096815 !important ;
+}
+/* MEDIA QUERIES*/
+
+@media (max-width: 1279px){
+  .carritoProductos{
+    width: 73%;
+  }
+  .margin{
+    padding-right: 2rem;
+  }
+.Seccion1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ContenedorInterioryAgua{
+  width: 78%;
+  margin: 0;
+}
+.Riego{
+  width: 100%;
+}
+
+}
+@media (max-width: 768px){
+  .carritoProductos{
+    width: 90%;
+  }
+  /* BARRA DE NAVEGACION RESPONSIVE */
+  .BarraContenedor{
+    height: 100%;
+  }
+  .LogoContenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .BarraTexto{
+    display: none;
+  }
+  .Logo{
+    width: 8rem;
+    height: 8rem;
+  }
+  .BarraResponsiveContenedor{
+    display: flex;
+  }
+  .MostrarBarra{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .Burger{
+    position: absolute;
+    width: 2.8rem;
+    height: 2.8rem;
+    left: 89%;
+    top: 36%;
+    cursor: pointer;
+  }
+  .BarraTextoRes{
+    /* display: none; */
+    position: fixed;
+    background: white;
+    z-index: 2000;
+    height: 100vh;
+    left: -251px;
+    transition: 2s all;
+ 
+  }
+  .BarraTextoResHide{
+    position: fixed;
+    background: white;
+    z-index: 2000;
+    height: 100vh;
+    left: 0;
+  }
+  .MarginMas{
+    margin-top: 2rem;
+  }
+  .RLink{
+    color: green;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.17rem;
+  }
+  .BarraTextoRes li{
+
+    margin-bottom: 1rem;
+  }
+    /* BARRA DE NAVEGACION RESPONSIVE */
+
+
+  .ContenedorRiegoyPlanta{
+    width: 80%;
+  }
+  .ContenedorNosotros, .BoxShadowDerecha{
+    width: 84vw;
+  }
+}
+
+@media (max-width: 576px){
+  .Burger{
+    left: 83%;
+  }
+  .Titulo{
+    font-size: 13vw;
+  }
+  .BoxShadow, .BoxShadowDerecha{
+    width: 95vw;
+  }
+  .tituloNosotros, .ResponsabilidadTitulo{
+    font-size: 4vw;
+    text-align: center;
+  }
+  .TextoNosotros, .ResponsabilidadTexto{
+    font-size: 3vw;
+  }
+
+  .AnimacionSlideUp{
+    font-size: 8vw;
+  }
+  .HerramientasModal, .TrepadoraModal, .InterioresModal, .SemillaModal{
+    width: 93%;
+    height: 50%;
+  }
+  .TextoModal{
+    font-size: 2.9vw;
+  }
+
+  .TituloInterior, .TituloRiego{
+    font-size: 6vw;
+  }
+  .TextoInterior, .TextoRiego{
+    font-size: 3.5vw;
+  }
+  .HerramientasTitulo{
+    height: 0vh;
+    margin-bottom: -2rem;
+  }
+  .TituloHerramientas{
+    font-size: 10vw;
+  }
+  .HerramientasTexto{
+    transform: scale(0.899);
+  }
+  .Herramientas, .Semillas, .Trepadoras, .Interiores{
+    width: 52vw;
+    height: 36vh;
+    font-size: 5vw;
+  }
+  #productosContenedor{
+    width: 91% ;
+  }
+}

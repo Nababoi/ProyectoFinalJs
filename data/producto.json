@@ -1,0 +1,13 @@
+[{"id":1, "img": "./img/thuja.jpg", "nombre" : "Thuja", "precio": 200, "categoria": "ARBUSTOS", "cantidad" : 1},
+    {"id":2, "img": "./img/squa.jpg", "nombre" : "Squamata", "precio": 400, "categoria": "ARBUSTOS", "cantidad" : 1},
+    {"id":3, "img": "./img/thun.jpg", "nombre" : "Thumbergii", "precio": 300, "categoria": "ARBUSTOS", "cantidad" : 1},
+    {"id":4, "img": "./img/wisteria.jpg", "nombre" : "Wisteria", "precio": 350, "categoria": "TREPADORES", "cantidad" : 1},
+    {"id":5, "img": "./img/clematide.jpg", "nombre" : "Clematide", "precio": 450, "categoria": "TREPADORES", "cantidad" : 1},
+    {"id":6, "img": "./img/rosal.jpg", "nombre" : "Rosal", "precio": 430, "categoria": "TREPADORES", "cantidad" : 1},
+    {"id":7, "img": "./img/espa.jpg", "nombre" : "Espatifilo", "precio": 150, "categoria": "INTERIORES", "cantidad" : 1},
+    {"id":8, "img": "./img/dracenas.jpg", "nombre" : "Dracenas", "precio": 180, "categoria": "INTERIORES", "cantidad" : 1},
+    {"id":9, "img": "./img/sanse.jpg", "nombre" : "Sansevieria", "precio": 210, "categoria": "INTERIORES", "cantidad" : 1},
+    {"id":10, "img": "./img/mano.jpg", "nombre" : "Rastrillo de mano", "precio": 460, "categoria": "HERRAMIENTAS", "cantidad" : 1},
+    {"id":11, "img": "./img/podadora.jpg", "nombre" : "Podadora", "precio": 230, "categoria": "HERRAMIENTAS", "cantidad" : 1},
+    {"id":12, "img": "./img/agosta.png", "nombre" : "Pala angosta", "precio": 160, "categoria": "HERRAMIENTAS", "cantidad" : 1},
+    {"id":13, "img": "./img/Rastri.jpg", "nombre" : "Rastrillo de metal", "precio": 310, "categoria": "HERRAMIENTAS", "cantidad" : 1}]
