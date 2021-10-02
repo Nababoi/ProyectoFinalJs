@@ -61,12 +61,12 @@ function carritoUI(productos){
 
 function registroCarrito(producto){
   return `<p> ${producto.nombre} 
-            <span class="badge bg-warning"> Precio Unitario: $ ${producto.precio}</span>
-            <span class="badge bg-dark"> Cantidad: ${producto.cantidad}</span>
-            <span class="badge bg-success"> Precio total: $ ${producto.subtotal()}</span>
-            <a id="${producto.id}" class="btn btn-info btn-add">+</a>
-            <a id="${producto.id}" class="btn btn-warning btn-restar">-</a>
-            <a id="${producto.id}" class="btn btn-danger btn-delete">x</a>
+            <span class="badge ProductoBackground"> Precio Unitario: $ ${producto.precio}</span>
+            <span class="badge ProductoCantidad"> Cantidad: ${producto.cantidad}</span>
+            <span class="badge ProductoPrecio"> Precio total: $ ${producto.subtotal()}</span>
+            <a id="${producto.id}" class="ButtonSuma btn-add">+</a>
+            <a id="${producto.id}" class="ButtonResta btn-restar">-</a>
+            <a id="${producto.id}" class="ButtonQuit btn-delete">x</a>
             </p>`
 }
 
