@@ -4,6 +4,34 @@
   list-style-type: none;
   text-decoration: none !important ;
 }
+.Footer{
+  background-color: #474847;
+  height: 15vh;
+}
+.ContenedorTexto{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  margin-left: 2rem;
+}
+.Texto{
+  margin-bottom: 0;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.TextoCorrer{
+  margin-left: 0.7rem;
+}
+.Ig{
+  text-decoration: none;
+  color: white;
+}
+.Ig:hover{
+  color: #909B90;
+  transition: all 2s;
+}
 /* MODAL CARRITO */
 .CategoriaCarrito{
   margin-left: 2rem;
@@ -704,6 +732,9 @@ img{
 }
 
 @media (max-width: 576px){
+  .Texto{
+    font-size: 2.9vw;
+  }
   #carritoProductos p{
     gap: 0.6rem;
   }

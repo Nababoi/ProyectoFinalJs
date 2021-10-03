@@ -6,7 +6,7 @@ function productosUIjQuery(productos, id){
                     <img src=" ${producto.img} " class="imagen" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">${producto.nombre}</h5>
-                      <p class="card-text">${producto.precio}</p>
+                      <p class="card-text">$${producto.precio}</p>
                       <span class="badge bg-info">${producto.categoria}</span>
                       <a href="#" id='${producto.id}' class="btn btn-primary btn-compra">COMPRAR</a>
                     </div>
@@ -47,7 +47,7 @@ function carritoUI(productos){
     $('#carritoProductos').append(registroCarrito(producto));
   }
 
-  $("#carritoProductos").append(`<div class = "CarritoTotal"><div class = "Total"><p id="totalCarrito"> TOTAL ${totalCarrito(productos)}</p></div>
+  $("#carritoProductos").append(`<div class = "CarritoTotal"><div class = "Total"><p id="totalCarrito"> TOTAL $${totalCarrito(productos)}</p></div>
                                 <div id="divConfirmar" class="text-center"><button id="btnConfirmar" class="btn btn-success">CONFIRMAR</button></div>
                                 </div>`);
 

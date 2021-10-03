@@ -10,4 +10,7 @@
     {"id":10, "img": "./img/mano.jpg", "nombre" : "Rastrillo de mano", "precio": 460, "categoria": "HERRAMIENTAS", "cantidad" : 1},
     {"id":11, "img": "./img/podadora.jpg", "nombre" : "Podadora", "precio": 230, "categoria": "HERRAMIENTAS", "cantidad" : 1},
     {"id":12, "img": "./img/agosta.png", "nombre" : "Pala angosta", "precio": 160, "categoria": "HERRAMIENTAS", "cantidad" : 1},
-    {"id":13, "img": "./img/Rastri.jpg", "nombre" : "Rastrillo de metal", "precio": 310, "categoria": "HERRAMIENTAS", "cantidad" : 1}]
+    {"id":13, "img": "./img/Rastri.jpg", "nombre" : "Rastrillo de metal", "precio": 310, "categoria": "HERRAMIENTAS", "cantidad" : 1},
+    {"id":14, "img":"./img/lapacho.jpg", "nombre" : "Lapacho Rosado", "precio": 140, "categoria": "SEMILLAS", "cantidad": 1},
+    {"id":15, "img":"./img/Fresno.jpg", "nombre" : "Fresno Americano", "precio": 170, "categoria": "SEMILLAS", "cantidad": 1},
+    {"id":16, "img":"./img/Bra.jpg", "nombre" : "Brachichito", "precio": 190, "categoria": "SEMILLAS", "cantidad": 1}]
