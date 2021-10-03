@@ -100,6 +100,7 @@
   justify-content: flex-end;
   align-items: center;
   margin: 0 ;
+  padding-left: 0 !important;
 }
 .Link{
   font-size: 1.2rem;
@@ -162,6 +163,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .BoxShadow, .BoxShadowDerecha{
@@ -611,6 +613,9 @@ img{
 
 }
 @media (max-width: 768px){
+  .Titulo{
+    font-size: 5rem;
+  }
   .carritoProductos{
     width: 90%;
   }
@@ -626,6 +631,7 @@ img{
   }
   .BarraTexto{
     display: none;
+    justify-content: center;
   }
   .Logo{
     width: 8rem;
@@ -691,6 +697,16 @@ img{
 }
 
 @media (max-width: 576px){
+  #carritoProductos p{
+    gap: 0.6rem;
+  }
+  .ButtonSuma, .ButtonResta, .ButtonQuit{
+    width: 7%;
+    font-size: 1.1rem !important;
+  }
+  .carritoProductos{
+    width: 98%;
+  }
   .Burger{
     left: 83%;
   }
