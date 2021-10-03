@@ -80,12 +80,19 @@
 }
 /* MODAL CARRITO */
 
-.Barra{
+.Barra, .BarraOpacity{
   background-color: green;
   position: sticky;
   top: 0;
   width: 100%;
   z-index: 4000;
+  transition: all 1s;
+}
+.BarraOpacity{
+  opacity: 0.6;
+}
+.BarraOpacity:hover{
+  opacity: 1;
 }
 .BarraResponsiveContenedor{
   display: none;

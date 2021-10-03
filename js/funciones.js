@@ -214,12 +214,21 @@ $(window).on("load", function(){
   $(".BoxShadow, .BoxShadowDerecha").css("transform", "translateX(0px)");
 })
 
+$(window).scroll(function() {
+
+if($(window).scrollTop() > 84) {
+$(".Barra").removeClass().addClass("BarraOpacity")
+  }else{
+    $(".BarraOpacity").removeClass().addClass("Barra")
+  }
+});
+
 $(".Burger").on("click", function(){
   $(".BarraTextoRes").toggleClass("BarraTextoResHide");
 
 
 })
 
-// $(".CarritoHide").on("click", function(){
-//   $(".CarritoProductos").toggleClass("CarritoProductosHide")
-// })
+$(document).scroll(function() {
+  console.log($(document).scrollTop());
+})
